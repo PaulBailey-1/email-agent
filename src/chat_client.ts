@@ -2,7 +2,9 @@ import OpenAI from "openai";
 import type { EasyInputMessage } from "openai/resources/responses/responses.mjs";
 import { config } from "./config";
 
-const client = new OpenAI();
+const client = new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY
+});
 
 class ChatSession {
 

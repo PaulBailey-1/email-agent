@@ -13,14 +13,12 @@
     "start": "bun run src/index.ts"
   },
   "dependencies": {
-    "@types/better-sqlite3": "^7.6.13",
     "@types/email-reply-parser": "^1.4.2",
     "@types/imap": "^0.8.42",
     "@types/mailparser": "^3.4.6",
     "@types/nodemailer": "^6.4.17",
     "@types/yaml": "^1.9.7",
     "ascii-table3": "^1.0.1",
-    "better-sqlite3": "^12.2.0",
     "email-reply-parser": "^2.0.1",
     "imap": "^0.8.19",
     "mailparser": "^3.7.4",

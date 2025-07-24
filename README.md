@@ -8,6 +8,14 @@ To install dependencies:
 bun install
 ```
 
+Set environment variables in a .env file:
+```bash
+EMAIL_AGENT_USER=<email for client to use>
+EMAIL_AGENT_PW=<password for mailbox>
+EMAIL_AGENT_ADMIN_PW=<admin password to use>
+OPENAI_API_KEY=<API key for ChatGPT>
+```
+
 To run:
 
 ```bash
@@ -17,5 +25,5 @@ bun start
 To test:
 
 ```bash
-bun run src/index.ts test
+bun start test
 ```
