@@ -4,26 +4,27 @@ A server to monitor an email mailbox and relay conversations with ChatGPT. Inclu
 
 To install dependencies:
 
-```bash
+```
+curl -fsSL https://bun.sh/install | 
 bun install
 ```
 
-Set environment variables in a .env file:
-```bash
+Make a .env file to set environment variables:
+```
 EMAIL_AGENT_USER=<email for client to use>
 EMAIL_AGENT_PW=<password for mailbox>
 EMAIL_AGENT_ADMIN_PW=<admin password to use>
 OPENAI_API_KEY=<API key for ChatGPT>
 ```
 
-To run:
+To start the server run:
 
-```bash
+```
 bun start
 ```
 
-To test:
+To test in the command line run:
 
-```bash
+```
 bun start test
 ```
