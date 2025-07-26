@@ -5,7 +5,7 @@ A server to monitor an email mailbox and relay conversations with ChatGPT. Inclu
 To install dependencies:
 
 ```
-curl -fsSL https://bun.sh/install | 
+curl -fsSL https://bun.sh/install | bash
 bun install
 ```
 
